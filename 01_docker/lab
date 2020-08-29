@@ -10,12 +10,17 @@ create container with following config
 	- set container name as myDB
         - run the container in daemon
         - publish the port as 0.0.0.0/0:3307->3306
-        - initialize enviornmenr variable:
-	- use mitrasonu/demo-mariadb:1  as a base image
-	
-                MYSQL_ROOT_PASSWORD=r00TPa55word
-		MYSQL_DATABASE=testDB
-		MYSQL_USER=lisa
-		MYSQL_PASSWORD=Pa55word
-	
-Download Mysql Dump from *https://github.com/sonulodha/docker/blob/master/01_docker/testDB.sql*
+        - use mitrasonu/mariadb  as a base image
+	- initialize enviornmenr variable:
+		MARIADB_ROOT_PASSWORD=Pa55word
+		MARIADB_DATABASE: migration
+		MARIADB_USER: lisa
+		MARIADB_PASSWORD: Pa55word
+	  
+Download Mysql Dump from https://github.com/sonulodha/docker/blob/master/01_docker/testDB.sql
+Restore migration database.
+
+
+
+Install mysql server /mariadb server in alpine linux .
+
