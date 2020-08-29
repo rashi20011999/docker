@@ -12,8 +12,10 @@ create container with following config
         - publish the port as 0.0.0.0/0:3307->3306
         - initialize enviornmenr variable:
 	- use mitrasonu/demo-mariadb:1  as a base image
+	
                 MYSQL_ROOT_PASSWORD=r00TPa55word
 		MYSQL_DATABASE=testDB
 		MYSQL_USER=lisa
 		MYSQL_PASSWORD=Pa55word
 	
+Download Mysql Dump from https://github.com/sonulodha/docker/blob/master/01_docker/testDB.sql
