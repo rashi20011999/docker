@@ -18,4 +18,4 @@ create container with following config
 		MYSQL_USER=lisa
 		MYSQL_PASSWORD=Pa55word
 	
-Download Mysql Dump from https://github.com/sonulodha/docker/blob/master/01_docker/testDB.sql
+Download Mysql Dump from *https://github.com/sonulodha/docker/blob/master/01_docker/testDB.sql*
